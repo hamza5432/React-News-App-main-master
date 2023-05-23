@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch";
 
 const News = () => {
   // Used custom hook useFetch to fetch the data
-  const {articles} = useFetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=0faa01129f2a415489db401c3d52f7c6");
+  const {articles} = useFetch("https://newsapi.org/v2/top-headlines?country=in&apiKey=e659285c56ee432da46bef550f8bc9a7");
   
   return (
     <div className="home">
